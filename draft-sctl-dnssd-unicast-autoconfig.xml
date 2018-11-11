@@ -177,7 +177,8 @@ Check output with <http://tools.ietf.org/tools/idnits/>
 
         <t>The information about what domain name to use for service discovery
         can be communicated to client devices on the home network
-        using DHCP or IPv6 router advertisement options.
+        using DHCP or the
+        <xref target="RFC8106">IPv6 router advertisement options for DNS Configuration</xref>.
         Currently this is done using the respective "DNS search list" options,
         though new options for this specific purpose could be defined in the future.
         If the user has a registered globally unique domain name
@@ -189,7 +190,8 @@ Check output with <http://tools.ietf.org/tools/idnits/>
 
         <t>Similarly, the information about what DNS recursive resolver
         to use can be communicated to client devices on the home network
-        using DHCP or IPv6 router advertisement options.
+        using DHCP or the
+        <xref target="RFC8106">IPv6 router advertisement options for DNS Configuration</xref>.
         If the main gateway configures its own address as the
         DNS recursive resolver for clients to use, it can ensure
         that operations using "home.arpa" are handled appropriately.
@@ -460,6 +462,7 @@ Check output with <http://tools.ietf.org/tools/idnits/>
       <?rfc include="reference.RFC.6762" ?>
       <?rfc include="reference.RFC.6763" ?>
       <?rfc include="reference.RFC.7556" ?>
+      <?rfc include="reference.RFC.8106" ?>
       <?rfc include="reference.RFC.8375" ?>
 
       <?rfc include="reference.I-D.cheshire-dnssd-roadmap"             anchor='Roadmap' ?>
